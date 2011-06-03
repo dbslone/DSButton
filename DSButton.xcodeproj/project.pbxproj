@@ -1,0 +1,283 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1562D97D13989502007E128D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1562D97C13989502007E128D /* UIKit.framework */; };
+		1562D97F13989502007E128D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1562D97E13989502007E128D /* Foundation.framework */; };
+		1562D98113989502007E128D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1562D98013989502007E128D /* CoreGraphics.framework */; };
+		1562D98713989502007E128D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1562D98513989502007E128D /* InfoPlist.strings */; };
+		1562D98A13989502007E128D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1562D98913989502007E128D /* main.m */; };
+		1562D98D13989502007E128D /* DSButtonAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1562D98C13989502007E128D /* DSButtonAppDelegate.m */; };
+		1562D99013989502007E128D /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1562D98E13989502007E128D /* MainWindow.xib */; };
+		1562D99313989502007E128D /* DSButtonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1562D99213989502007E128D /* DSButtonViewController.m */; };
+		1562D99613989502007E128D /* DSButtonViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1562D99413989502007E128D /* DSButtonViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1562D97813989502007E128D /* DSButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DSButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1562D97C13989502007E128D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1562D97E13989502007E128D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1562D98013989502007E128D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1562D98413989502007E128D /* DSButton-Info.plist */ = {isa = PBXFileReference; path = "DSButton-Info.plist"; sourceTree = "<group>"; };
+		1562D98613989502007E128D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1562D98813989502007E128D /* DSButton-Prefix.pch */ = {isa = PBXFileReference; path = "DSButton-Prefix.pch"; sourceTree = "<group>"; };
+		1562D98913989502007E128D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1562D98B13989502007E128D /* DSButtonAppDelegate.h */ = {isa = PBXFileReference; path = DSButtonAppDelegate.h; sourceTree = "<group>"; };
+		1562D98C13989502007E128D /* DSButtonAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DSButtonAppDelegate.m; sourceTree = "<group>"; };
+		1562D98F13989502007E128D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		1562D99113989502007E128D /* DSButtonViewController.h */ = {isa = PBXFileReference; path = DSButtonViewController.h; sourceTree = "<group>"; };
+		1562D99213989502007E128D /* DSButtonViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DSButtonViewController.m; sourceTree = "<group>"; };
+		1562D99513989502007E128D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DSButtonViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1562D97513989502007E128D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1562D97D13989502007E128D /* UIKit.framework in Frameworks */,
+				1562D97F13989502007E128D /* Foundation.framework in Frameworks */,
+				1562D98113989502007E128D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1562D96D13989502007E128D = {
+			isa = PBXGroup;
+			children = (
+				1562D98213989502007E128D /* DSButton */,
+				1562D97B13989502007E128D /* Frameworks */,
+				1562D97913989502007E128D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1562D97913989502007E128D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1562D97813989502007E128D /* DSButton.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1562D97B13989502007E128D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1562D97C13989502007E128D /* UIKit.framework */,
+				1562D97E13989502007E128D /* Foundation.framework */,
+				1562D98013989502007E128D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1562D98213989502007E128D /* DSButton */ = {
+			isa = PBXGroup;
+			children = (
+				1562D98B13989502007E128D /* DSButtonAppDelegate.h */,
+				1562D98C13989502007E128D /* DSButtonAppDelegate.m */,
+				1562D98E13989502007E128D /* MainWindow.xib */,
+				1562D99113989502007E128D /* DSButtonViewController.h */,
+				1562D99213989502007E128D /* DSButtonViewController.m */,
+				1562D99413989502007E128D /* DSButtonViewController.xib */,
+				1562D98313989502007E128D /* Supporting Files */,
+			);
+			path = DSButton;
+			sourceTree = "<group>";
+		};
+		1562D98313989502007E128D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1562D98413989502007E128D /* DSButton-Info.plist */,
+				1562D98513989502007E128D /* InfoPlist.strings */,
+				1562D98813989502007E128D /* DSButton-Prefix.pch */,
+				1562D98913989502007E128D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1562D97713989502007E128D /* DSButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1562D99913989502007E128D /* Build configuration list for PBXNativeTarget "DSButton" */;
+			buildPhases = (
+				1562D97413989502007E128D /* Sources */,
+				1562D97513989502007E128D /* Frameworks */,
+				1562D97613989502007E128D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DSButton;
+			productName = DSButton;
+			productReference = 1562D97813989502007E128D /* DSButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1562D96F13989502007E128D /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1562D97213989502007E128D /* Build configuration list for PBXProject "DSButton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1562D96D13989502007E128D;
+			productRefGroup = 1562D97913989502007E128D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1562D97713989502007E128D /* DSButton */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1562D97613989502007E128D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1562D98713989502007E128D /* InfoPlist.strings in Resources */,
+				1562D99013989502007E128D /* MainWindow.xib in Resources */,
+				1562D99613989502007E128D /* DSButtonViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1562D97413989502007E128D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1562D98A13989502007E128D /* main.m in Sources */,
+				1562D98D13989502007E128D /* DSButtonAppDelegate.m in Sources */,
+				1562D99313989502007E128D /* DSButtonViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1562D98513989502007E128D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1562D98613989502007E128D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1562D98E13989502007E128D /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1562D98F13989502007E128D /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		1562D99413989502007E128D /* DSButtonViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1562D99513989502007E128D /* en */,
+			);
+			name = DSButtonViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1562D99713989502007E128D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1562D99813989502007E128D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		1562D99A13989502007E128D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DSButton/DSButton-Prefix.pch";
+				INFOPLIST_FILE = "DSButton/DSButton-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1562D99B13989502007E128D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DSButton/DSButton-Prefix.pch";
+				INFOPLIST_FILE = "DSButton/DSButton-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1562D97213989502007E128D /* Build configuration list for PBXProject "DSButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1562D99713989502007E128D /* Debug */,
+				1562D99813989502007E128D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1562D99913989502007E128D /* Build configuration list for PBXNativeTarget "DSButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1562D99A13989502007E128D /* Debug */,
+				1562D99B13989502007E128D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1562D96F13989502007E128D /* Project object */;
+}
